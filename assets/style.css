@@ -1,0 +1,8 @@
+/**
+ * Simple loader for page transition
+ */
+@media all and (display-mode: standalone) {
+    html {
+        background: #020015 url(../img/loading.svg) center center no-repeat;
+    }
+}

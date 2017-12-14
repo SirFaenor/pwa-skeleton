@@ -1,0 +1,30 @@
+{
+    "short_name": "My App",
+    "name": "My First Progressive WebApp",
+    "icons": [
+        {
+              "src": "/assets/logo-1x.png",
+              "type": "image/png",
+              "sizes": "48x48"
+        },
+        {
+            "src": "/assets/logo-2x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/logo-4x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/logo-large.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#000000", 
+    "display": "standalone"
+}
