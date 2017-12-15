@@ -3,6 +3,6 @@
  */
 @media all and (display-mode: standalone) {
     html {
-        background: #020015 url(../img/loading.svg) center center no-repeat;
+        background: #020015 url(loading.svg) center center no-repeat;
     }
 }
