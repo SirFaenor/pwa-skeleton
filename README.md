@@ -7,7 +7,7 @@ Tested via Chrome Developer Tools > Audits. (see it on [https://dev-pwa.emanuele
 ![](pwa-checklist.png)
 
 ## Requirements
-- Https connection
+- Https connection (here it's forced via .htaccess)
 
 ## Based on 
 - [https://developers.google.com/web/fundamentals/primers/service-workers/](https://developers.google.com/web/fundamentals/primers/service-workers/)
