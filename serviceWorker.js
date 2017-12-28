@@ -33,19 +33,26 @@ this.addEventListener('install', function(event) {
 /**
  * After a service worker is installed and the user navigates to a different page or refreshes,
  * the service worker will begin to receive fetch events.
+ *
+ * Network-first approach: if online, request is fetched from network and not from cache
  */
 this.addEventListener('fetch', function(event) {
-     event.respondWith(
+    event.respondWith(function() {
+        
+        var res = returnFromServer(event);
+        if (res) {return res;}
+
         caches.match(event.request).then(function(res){
             // Cache hit - return response
             if(res){
                 return res;
             }
 
-            // no cache hit, go to server
-            return returnFromServer(event);
+            // no response
+            return null;
         })
-    );
+
+    }());
 });
 
 
@@ -68,7 +75,7 @@ function returnFromServer(event){
             
             // Check if we received a valid response
             if(!response || response.status !== 200 || response.type !== 'basic') {
-                  return response;
+                  return null;
             }
 
             // IMPORTANT: Clone the response. A response is a stream
