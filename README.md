@@ -22,4 +22,4 @@ Tested via Chrome Developer Tools > Audits. (see it on [https://dev-pwa.emanuele
 - [https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/)
 
 ## Copyright notice
-Some block codes and comments are copy-pasted (adapted when needed) from the links above (all credits to original authors).
+Some code blocks and comments are copy-pasted (adapted when needed) from the links above (all credits to original authors).
