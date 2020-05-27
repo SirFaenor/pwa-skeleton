@@ -2,7 +2,7 @@
 
 "Progressive web app" template / example with cache management.  
 Minimum requirements for [https://developers.google.com/web/progressive-web-apps/checklist](https://developers.google.com/web/progressive-web-apps/checklist).  
-Tested via Chrome Developer Tools > Audits. (see it on [https://dev-pwa.emanuelefornasier.it/](https://dev-pwa.emanuelefornasier.it/) )
+Tested via Chrome Developer Tools > Audits. (see it on [https://dev.sirfaenor.xyz/pwa/](https://dev.sirfaenor.xyz/pwa/) )
 
 ![](pwa-checklist.png)
 
