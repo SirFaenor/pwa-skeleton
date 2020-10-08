@@ -21,6 +21,12 @@
             "src": "assets/logo-large.png",
             "type": "image/png",
             "sizes": "512x512"
+        },
+        {
+            "src": "assets/maskable_icon.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ],
     "start_url": "./",
